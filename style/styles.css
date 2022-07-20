@@ -74,7 +74,6 @@ p {
     right: 2%;
     top: 20.83%;
     bottom: 20.83%;
-
     color: #FFFFFF;
 }
 
@@ -129,11 +128,13 @@ p {
     background-color: #DD0000;
     border-radius: 10px;
     text-align: center;
+    color: #FFFFFF;
 }
 
-.blog a {
+.box-1 a {
     text-decoration: none;
-    color: #FFFFFF;
+    color: #161616;
+
 }
 
 /* match style */
@@ -270,4 +271,62 @@ p {
     display: inline-flex;
     gap: 10px;
     color: rgba(22, 22, 22, 0.7);
+}
+
+/* footer */
+.last {
+    position: absolute;
+    width: 1348px;
+    height: 700px;
+    left: 0px;
+    top: 2090px;
+    background: #161616;
+}
+
+.goal {
+    position: absolute;
+    width: 95px;
+    height: 60px;
+    left: 625px;
+    top: 100px;
+    color: #FFFFFF;
+    font-size: 40px;
+}
+
+hr {
+    position: absolute;
+    width: 1320px;
+    height: 0px;
+    left: 10px;
+    top: 250px;
+
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.footer-links {
+    position: absolute;
+    left: 200px;
+    top: 45%;
+    bottom: 5.13%;
+    display: flex;
+
+    gap: 60px;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #B9B9B9;
+}
+
+.social {
+    position: absolute;
+    display: flex;
+    top: 400px;
+    font-size: 30px;
+    left: 580px;
+    gap: 50px;
+}
+
+.social a {
+    color: #B9B9B9;
 }
