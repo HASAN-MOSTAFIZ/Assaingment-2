@@ -1,0 +1,273 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* greatest show */
+.greatest-show {
+    position: absolute;
+    width: 1321px;
+    height: 646px;
+
+    margin-top: 50px;
+    background: #161616;
+    border-radius: 30px;
+    /* position: absolute;
+    width: 1321px;
+    height: 646px;
+    left: 140px;
+    top: 50px;
+
+    background: #161616;
+    border-radius: 30px;
+ */
+}
+
+
+
+.FIFA {
+    position: absolute;
+    width: 531px;
+    height: 424px;
+    left: 80px;
+    top: 50px;
+
+}
+
+.text1 {
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 80px;
+    color: #FFFFFF;
+}
+
+p {
+    font-size: 13px;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+.watch-live {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding-left: 15px;
+    gap: 10px;
+    position: absolute;
+    width: 130px;
+    height: 50px;
+    left: 100px;
+    top: 529px;
+    background: #DD0000;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.txt {
+    position: absolute;
+    font-size: 1em;
+    bottom: 0.3px;
+}
+
+.arrow {
+    position: absolute;
+    left: 58%;
+    right: 2%;
+    top: 20.83%;
+    bottom: 20.83%;
+
+    color: #FFFFFF;
+}
+
+.image img {
+    position: absolute;
+    left: 680px;
+    width: 560px;
+    top: 57px;
+}
+
+/* 2nd part */
+.boxes {
+    position: absolute;
+    width: 312px;
+    height: 312px;
+    top: 826px;
+    background: #161616;
+    border-radius: 10px;
+}
+
+.box-1 {
+    position: absolute;
+    width: 252px;
+    height: 64px;
+    top: 35px;
+    left: 30px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    text-align: center;
+
+
+
+}
+
+.box-2 {
+    position: absolute;
+    width: 252px;
+    height: 64px;
+    top: 134px;
+    left: 30px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.blog {
+    position: absolute;
+    width: 252px;
+    height: 64px;
+    top: 233px;
+    left: 30px;
+    background-color: #DD0000;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.blog a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+/* match style */
+
+.match-1 {
+    position: absolute;
+    width: 312px;
+    height: 362px;
+    left: 350px;
+    top: 826px;
+    border: 1px solid #E8E8E8;
+    border-radius: 12px;
+}
+
+.match-2 {
+    position: absolute;
+    width: 312px;
+    height: 362px;
+    left: 685px;
+    top: 826px;
+    border: 1px solid #E8E8E8;
+    border-radius: 12px;
+}
+
+.match-3 {
+    position: absolute;
+    width: 312px;
+    height: 362px;
+    left: 1020px;
+    top: 826px;
+    border: 1px solid #E8E8E8;
+    border-radius: 12px;
+}
+
+.match-4 {
+    position: absolute;
+    width: 312px;
+    height: 362px;
+    left: 350px;
+    top: 1210px;
+    border: 1px solid #E8E8E8;
+    border-radius: 12px;
+}
+
+.match-5 {
+    position: absolute;
+    width: 312px;
+    height: 362px;
+    left: 685px;
+    top: 1210px;
+    border: 1px solid #E8E8E8;
+    border-radius: 12px;
+}
+
+.match-6 {
+    position: absolute;
+    width: 312px;
+    height: 362px;
+    left: 1020px;
+    top: 1210px;
+    border: 1px solid #E8E8E8;
+    border-radius: 12px;
+}
+
+.match-7 {
+    position: absolute;
+    width: 312px;
+    height: 362px;
+    left: 350px;
+    top: 1600px;
+    border: 1px solid #E8E8E8;
+    border-radius: 12px;
+}
+
+.match-8 {
+    position: absolute;
+    width: 312px;
+    height: 362px;
+    left: 685px;
+    top: 1600px;
+    border: 1px solid #E8E8E8;
+    border-radius: 12px;
+}
+
+.match-9 {
+    position: absolute;
+    width: 312px;
+    height: 362px;
+    left: 1020px;
+    top: 1600px;
+    border: 1px solid #E8E8E8;
+    border-radius: 12px;
+}
+
+.transfer {
+    position: absolute;
+    width: 100px;
+    height: 25px;
+    left: 20px;
+    top: 190px;
+    border: 1px solid #161616;
+    text-align: center;
+    border-radius: 5px;
+    color: #161616;
+}
+
+.blog-title {
+    position: absolute;
+    width: 272px;
+    height: 54px;
+    left: 20px;
+    top: 210px;
+}
+
+.clock-comment {
+    position: absolute;
+    width: 143px;
+    height: 26px;
+    left: 10px;
+    top: 330px;
+    display: inline-flex;
+    gap: 50px;
+
+}
+
+.clock {
+    display: inline-flex;
+    gap: 10px;
+    color: rgba(22, 22, 22, 0.7);
+
+}
+
+.comment {
+    display: inline-flex;
+    gap: 10px;
+    color: rgba(22, 22, 22, 0.7);
+}
